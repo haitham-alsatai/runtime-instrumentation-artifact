@@ -1,6 +1,8 @@
 # Publishing This Artifact as a New GitHub Repository
 
-This local repository has no remote and does not modify the previous artifact.
+This repository was created separately from the previous artifact and must
+remain connected only to its own remote. Publishing or updating it does not
+modify the previous `artifact-anonymous` repository.
 
 ## Recommended Repository Name
 
@@ -17,7 +19,8 @@ required.
 
 ## Create and Push
 
-After creating an empty GitHub repository, run from this repository:
+When publishing a fresh copy to another account or archival location, run from
+that fresh local copy:
 
 ```bash
 git remote add origin https://github.com/<account>/<new-repository>.git
@@ -35,4 +38,3 @@ Do not point this repository at the previous artifact remote.
 4. Confirm no file exceeds GitHub's 100 MB individual-file limit.
 5. Inspect the rendered GitHub README and Markdown tables.
 6. Create a release or archival DOI only after the artifact is frozen.
-
