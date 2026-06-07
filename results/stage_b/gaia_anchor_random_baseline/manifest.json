@@ -1,0 +1,13 @@
+{
+  "policy": "anchored_service_random_rest",
+  "budgets": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "seed": 7,
+  "notes": [
+    "Service selection is anchored on the root_service field, with the remaining service order randomized.",
+    "Minute and endpoint choices are random within the retained budget."
+  ]
+}

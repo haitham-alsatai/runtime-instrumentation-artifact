@@ -1,0 +1,33 @@
+{
+  "data_root": "data/RE2",
+  "datasets": [
+    "RE2-OB",
+    "RE2-TT"
+  ],
+  "budgets": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.35,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+  ],
+  "max_workers": 4,
+  "usable_cases": 180,
+  "design_note": "Dense Stage A random trace-retention expansion. Pre-injection traces retained in full; post-injection traces sampled by budget."
+}

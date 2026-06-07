@@ -1,0 +1,16 @@
+fault_type,policy,avg_at_5,top3
+cpu,adaptive_multibudget,1.0,1.0
+cpu,random_multibudget,0.0,0.0
+cpu,single_budget_random,0.06666666666666667,0.06666666666666667
+errno111,adaptive_multibudget,1.0,1.0
+errno111,random_multibudget,0.14,0.14
+errno111,single_budget_random,0.14,0.14
+file_move,adaptive_multibudget,1.0,1.0
+file_move,random_multibudget,0.11627906976744186,0.11627906976744186
+file_move,single_budget_random,0.046511627906976744,0.046511627906976744
+memory,adaptive_multibudget,1.0,1.0
+memory,random_multibudget,0.12576687116564417,0.12576687116564417
+memory,single_budget_random,0.10429447852760736,0.10429447852760736
+qr_expired,adaptive_multibudget,1.0,1.0
+qr_expired,random_multibudget,0.10625,0.10625
+qr_expired,single_budget_random,0.125,0.125

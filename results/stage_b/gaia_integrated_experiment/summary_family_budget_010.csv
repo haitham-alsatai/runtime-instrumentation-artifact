@@ -1,0 +1,16 @@
+service_family,policy,avg_at_5,top3
+cache,adaptive_multibudget,1.0,1.0
+cache,random_multibudget,0.12295081967213115,0.12295081967213115
+cache,single_budget_random,0.1721311475409836,0.1721311475409836
+database,adaptive_multibudget,1.0,1.0
+database,random_multibudget,0.11494252873563218,0.11494252873563218
+database,single_budget_random,0.10344827586206896,0.10344827586206896
+logging,adaptive_multibudget,1.0,1.0
+logging,random_multibudget,0.1357142857142857,0.1357142857142857
+logging,single_budget_random,0.07857142857142857,0.07857142857142857
+mobile,adaptive_multibudget,1.0,1.0
+mobile,random_multibudget,0.1111111111111111,0.1111111111111111
+mobile,single_budget_random,0.10784313725490197,0.10784313725490197
+web,adaptive_multibudget,1.0,1.0
+web,random_multibudget,0.12921348314606743,0.12921348314606743
+web,single_budget_random,0.08426966292134831,0.08426966292134831

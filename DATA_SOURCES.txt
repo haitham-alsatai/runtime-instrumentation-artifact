@@ -1,0 +1,20 @@
+Public benchmark sources used by this artifact
+================================================
+
+RCAEval
+https://github.com/phamquiluan/RCAEval
+
+The Stage A experiments use the RE2-OB (Online Boutique) and RE2-TT
+(Train Ticket) portions. Place the extracted RE2 directory at:
+
+data/RE2/
+
+GAIA-DataSet
+https://github.com/CloudWise-OpenSource/GAIA-DataSet
+
+The Stage B integrated experiment uses the July 2021 GAIA MicroSS traces,
+metrics, and run table. See data/GAIA/README.md for the expected layout.
+
+Raw datasets are not redistributed in this repository. Derived outputs needed
+to inspect and verify the reported results are included under results/.
+

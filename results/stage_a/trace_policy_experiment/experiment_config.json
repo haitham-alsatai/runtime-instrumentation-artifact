@@ -1,0 +1,24 @@
+{
+  "datasets": [
+    "RE2-OB",
+    "RE2-TT"
+  ],
+  "policies": [
+    "random",
+    "latency_topk"
+  ],
+  "budgets": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "random_seed": 2026,
+  "max_workers": 4,
+  "data_root": "data/RE2",
+  "method": "trace_budget_rank_services",
+  "selection_note": "Experiment 2 compares random anomalous-trace sampling against latency-prioritized anomalous-trace retention.",
+  "num_cases": 180,
+  "num_runs": 1440,
+  "num_failures": 0
+}

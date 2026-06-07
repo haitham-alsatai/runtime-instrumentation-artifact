@@ -1,0 +1,34 @@
+{
+  "cases": 900,
+  "fault_counts": {
+    "memory": 652,
+    "qr_expired": 160,
+    "file_move": 43,
+    "errno111": 30,
+    "cpu": 15
+  },
+  "service_counts": {
+    "webservice2": 88,
+    "dbservice1": 78,
+    "dbservice2": 92,
+    "redisservice1": 58,
+    "mobservice1": 149,
+    "mobservice2": 153,
+    "redisservice2": 60,
+    "logservice2": 66,
+    "logservice1": 70,
+    "webservice1": 86
+  },
+  "policies": [
+    "full",
+    "single_budget_random",
+    "random_multibudget",
+    "adaptive_multibudget"
+  ],
+  "budgets": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ]
+}

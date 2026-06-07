@@ -1,0 +1,18 @@
+{
+  "method": "MRCA-inspired aggregate baseline",
+  "features": [
+    "cpu",
+    "memory",
+    "net_in_err",
+    "net_out_err",
+    "trace_rows",
+    "mean_latency_ms",
+    "error_rows"
+  ],
+  "top_k_services_for_pruning": 5,
+  "anomaly_threshold": 3.0,
+  "notes": [
+    "Adaptation only: uses GAIA service-minute trace and metric aggregates, not the full MRCA trace-log-metric stack.",
+    "Approximates abnormal-service ranking with multi-signal anomaly scores and anomaly-order pruning among top abnormal services."
+  ]
+}

@@ -1,0 +1,9 @@
+dataset,budget,comparison,delta_avg5,ci95_low,ci95_high
+RE2-OB,0.1,latency_topk_minus_random,-0.020000,-0.046722,0.006667
+RE2-OB,0.25,latency_topk_minus_random,-0.006667,-0.031167,0.015611
+RE2-OB,0.5,latency_topk_minus_random,-0.004444,-0.026667,0.013333
+RE2-OB,1.0,latency_topk_minus_random,0.000000,0.000000,0.000000
+RE2-TT,0.1,latency_topk_minus_random,-0.051111,-0.097778,-0.017778
+RE2-TT,0.25,latency_topk_minus_random,-0.024444,-0.057833,0.000000
+RE2-TT,0.5,latency_topk_minus_random,-0.006667,-0.015556,0.000000
+RE2-TT,1.0,latency_topk_minus_random,0.000000,0.000000,0.000000

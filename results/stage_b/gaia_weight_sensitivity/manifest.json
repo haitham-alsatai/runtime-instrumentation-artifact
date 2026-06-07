@@ -1,0 +1,49 @@
+{
+  "variant": "adaptive_full_context",
+  "budgets": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "configs": [
+    {
+      "name": "baseline",
+      "trace_latency_weight": 2.5,
+      "trace_error_weight": 4.0,
+      "trace_volume_weight": 0.6,
+      "metric_weight": 0.8
+    },
+    {
+      "name": "trace_heavier_metric_lighter",
+      "trace_latency_weight": 3.75,
+      "trace_error_weight": 6.0,
+      "trace_volume_weight": 0.9,
+      "metric_weight": 0.4
+    },
+    {
+      "name": "trace_lighter_metric_heavier",
+      "trace_latency_weight": 1.25,
+      "trace_error_weight": 2.0,
+      "trace_volume_weight": 0.3,
+      "metric_weight": 1.2
+    },
+    {
+      "name": "error_lighter",
+      "trace_latency_weight": 2.5,
+      "trace_error_weight": 2.0,
+      "trace_volume_weight": 0.6,
+      "metric_weight": 0.8
+    },
+    {
+      "name": "error_heavier",
+      "trace_latency_weight": 2.5,
+      "trace_error_weight": 6.0,
+      "trace_volume_weight": 0.6,
+      "metric_weight": 0.8
+    }
+  ],
+  "notes": [
+    "Sensitivity analysis uses the reconstructed GAIA evaluator on processed aggregate CSVs.",
+    "The policy variant is the reconstructed adaptive full-context setting only."
+  ]
+}

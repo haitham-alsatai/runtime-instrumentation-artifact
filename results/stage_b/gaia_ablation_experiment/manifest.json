@@ -1,0 +1,20 @@
+{
+  "cases": 890,
+  "variants": [
+    "adaptive_full_context",
+    "adaptive_no_alerted_service",
+    "adaptive_no_fault_type",
+    "adaptive_no_time_window"
+  ],
+  "budgets": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "source_results_dir": "results/stage_b/gaia_integrated_experiment",
+  "notes": [
+    "Reconstructed from processed GAIA aggregate CSV files.",
+    "Case set taken from the stored full-policy GAIA results.",
+    "Anomalous window approximated as the trailing full-window length ending at the alert minute."
+  ]
+}

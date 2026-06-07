@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Public benchmark datasets are not redistributed.
+data/RE2/*
+!data/RE2/README.md
+data/GAIA/*
+!data/GAIA/README.md
+
+# Local scratch outputs.
+scratch/
+*.log
+

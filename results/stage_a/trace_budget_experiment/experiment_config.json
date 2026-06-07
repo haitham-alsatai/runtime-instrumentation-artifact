@@ -1,0 +1,19 @@
+{
+  "datasets": [
+    "RE2-OB",
+    "RE2-TT"
+  ],
+  "budgets": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "random_seed": 2026,
+  "max_workers": 4,
+  "method": "trace_budget_rank_services",
+  "method_note": "Lightweight service-level trace ranking inspired by TraceRCA with service-level fallbacks for unseen post-fault operations.",
+  "num_cases": 180,
+  "num_runs": 720,
+  "num_failures": 0
+}

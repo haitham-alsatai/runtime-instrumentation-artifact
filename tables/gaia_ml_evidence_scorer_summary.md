@@ -1,0 +1,10 @@
+| model | budget | cases | folds | top1 | top3 | top5 | avg_at_5 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| hist_gradient_evidence | 25% | 890 | 5 | 0.837 | 1.000 | 1.000 | 0.938 |
+| random_forest_evidence | 25% | 890 | 5 | 0.840 | 1.000 | 1.000 | 0.938 |
+| logistic_evidence | 25% | 890 | 5 | 0.745 | 1.000 | 1.000 | 0.921 |
+| deterministic_formula | 25% | 890 | 5 | 0.418 | 1.000 | 1.000 | 0.826 |
+| random_forest_evidence | 50% | 890 | 5 | 0.665 | 0.807 | 1.000 | 0.809 |
+| hist_gradient_evidence | 50% | 890 | 5 | 0.602 | 0.806 | 1.000 | 0.802 |
+| logistic_evidence | 50% | 890 | 5 | 0.402 | 0.781 | 1.000 | 0.728 |
+| deterministic_formula | 50% | 890 | 5 | 0.249 | 0.654 | 1.000 | 0.642 |

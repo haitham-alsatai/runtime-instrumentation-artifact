@@ -1,0 +1,24 @@
+{
+  "experiment": "gaia_ml_evidence_scorer_rv2026",
+  "created_date": "2026-06-03",
+  "input_dir": "results/stage_b/gaia_integrated_experiment",
+  "output_dir": "results/stage_b/gaia_ml_evidence_scorer",
+  "budgets": [
+    0.25,
+    0.5
+  ],
+  "n_splits": 5,
+  "base_seed": 20260603,
+  "models": [
+    "deterministic_formula",
+    "logistic_evidence",
+    "random_forest_evidence",
+    "hist_gradient_evidence"
+  ],
+  "decision_time_safety": [
+    "Case folds are disjoint.",
+    "Training labels are used only for training.",
+    "Test labels are used only for evaluation.",
+    "Main ML feature set excludes an explicit alerted/root-service feature."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "method": "BARO-style robust z-score ranking over full GAIA minute-level aggregates",
+  "features": [
+    "cpu",
+    "memory",
+    "net_in_err",
+    "net_out_err",
+    "trace_rows",
+    "mean_latency_ms",
+    "error_rows"
+  ],
+  "notes": [
+    "Uses equal-length pre-alert and post-alert windows for each case.",
+    "Ranks services by the strongest feature-level BARO score across metric and trace aggregates.",
+    "Evaluates on the same 890-case GAIA aggregate subset used by the paper's Stage B analysis."
+  ]
+}

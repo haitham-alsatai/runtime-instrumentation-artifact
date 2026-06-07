@@ -1,0 +1,43 @@
+{
+  "data_root": "data/RE2",
+  "datasets": [
+    "RE2-OB",
+    "RE2-TT"
+  ],
+  "budgets": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "policies": [
+    "random",
+    "latency_topk",
+    "abnormality_topk",
+    "service_aware_abnormality",
+    "early_window",
+    "late_window",
+    "latency_service_diversity",
+    "abnormality_service_diversity",
+    "coverage_aware",
+    "hybrid_abnormality_latency"
+  ],
+  "random_seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+  ],
+  "max_workers": 4,
+  "usable_cases": 180,
+  "records": 17100,
+  "failures": 0,
+  "design_note": "Expanded Stage A trace-retention policies under fixed trace-only ranker. Random is averaged across seeds; deterministic policies are compared against case-level random means."
+}

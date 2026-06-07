@@ -1,0 +1,33 @@
+{
+  "experiment": "stage_b_weak_anchor_rv2026",
+  "created_date": "2026-06-02",
+  "input_dir": "results/stage_b/gaia_integrated_experiment",
+  "output_dir": "results/stage_b/stage_b_weak_anchor",
+  "budgets": [
+    0.25,
+    0.5
+  ],
+  "anchor_corruption_levels": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "repetitions": 5,
+  "base_seed": 20260602,
+  "cases": 890,
+  "policies": [
+    "adaptive_corrupted_anchor",
+    "anchored_random_rest",
+    "random_multibudget",
+    "full_reference"
+  ],
+  "decision_time_safety": [
+    "Corruption changes only the service anchor used for allocation.",
+    "Evaluation always uses the true root_service label.",
+    "No withheld ranking label is used when selecting services, minutes, or endpoints.",
+    "Full_reference is a constant baseline copied from stored full-policy rankings."
+  ]
+}

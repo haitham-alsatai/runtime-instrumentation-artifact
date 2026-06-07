@@ -1,0 +1,24 @@
+{
+  "datasets": [
+    "RE2-OB",
+    "RE2-TT"
+  ],
+  "policies": [
+    "random",
+    "early_window",
+    "late_window"
+  ],
+  "budgets": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "random_seed": 2026,
+  "max_workers": 4,
+  "data_root": "data/RE2",
+  "num_cases": 180,
+  "num_runs": 2160,
+  "num_failures": 0,
+  "note": "Longer-term pilot for the 'when to trace' dimension using temporal window selection."
+}
