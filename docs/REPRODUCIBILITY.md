@@ -24,6 +24,8 @@ No experiment rerun is needed to inspect the principal values:
   `results/stage_b/gaia_ablation_experiment/summary_overall.csv`
 - Stage B weak anchor:
   `results/stage_b/stage_b_weak_anchor/summary_overall.csv`
+- Stage B case-resampling intervals and fault-macro summaries:
+  `results/stage_b/stage_b_case_resampling/`
 - Learned scorer sensitivity:
   `results/stage_b/gaia_ml_evidence_scorer/summary_overall.csv`
 
@@ -39,6 +41,7 @@ python scripts/stage_b/gaia_anchor_random_baseline.py
 python scripts/stage_b/gaia_baro_baseline.py
 python scripts/stage_b/gaia_mrca_baseline.py
 python scripts/stage_b/run_stage_b_weak_anchor.py
+python scripts/stage_b/make_stage_b_case_resampling_summary.py
 python scripts/stage_b/run_gaia_ml_evidence_scorer.py
 ```
 
@@ -74,4 +77,3 @@ The bundled outputs are the authoritative derived outputs used for claim
 verification. Full reruns depend on public dataset versions, hardware,
 available memory, and library versions. The artifact does not redistribute raw
 public data.
-

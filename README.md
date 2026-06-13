@@ -18,9 +18,9 @@ blind end-to-end root-cause localization.
   windows, and endpoints, followed by ablation, weak-anchor, and
   downstream-scorer sensitivity analyses.
 
-The repository integrates both the original supporting experiments and the
-substantial extension experiments added after the initial study. See
-[`docs/NEW_VS_PREVIOUS_ARTIFACT.md`](docs/NEW_VS_PREVIOUS_ARTIFACT.md).
+The repository integrates the complete supporting experiments and the broader
+budget, selector, robustness, and scorer-sensitivity analyses. See
+[`docs/ARTIFACT_COVERAGE.md`](docs/ARTIFACT_COVERAGE.md).
 
 ## Quick Start: Inspect Results Without Rerunning Experiments
 
@@ -95,6 +95,13 @@ tables/
 - Script: `scripts/stage_b/run_stage_b_weak_anchor.py`
 - Results: `results/stage_b/stage_b_weak_anchor/`
 - Design: 890 cases, two budgets, six corruption levels, five repetitions.
+
+### Stage B Case-Resampling and Fault-Macro Summary
+
+- Script: `scripts/stage_b/make_stage_b_case_resampling_summary.py`
+- Results: `results/stage_b/stage_b_case_resampling/`
+- Design: derived analysis over the zero-corruption weak-anchor case outputs;
+  randomized policies are averaged per case before 10,000 bootstrap replicates.
 
 ### GAIA Learned Evidence-Scorer Sensitivity
 

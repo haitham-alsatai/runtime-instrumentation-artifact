@@ -2,12 +2,12 @@
 
 ## Package Summary
 
-- 15 experiment/analysis scripts under `scripts/stage_a/` and
+- 16 experiment/analysis scripts under `scripts/stage_a/` and
   `scripts/stage_b/`.
 - One lightweight bundled-result verifier:
   `scripts/verify_key_results.py`.
 - Seven Stage A result families.
-- Eight Stage B result families.
+- Nine Stage B result families.
 - Paper-facing figures in PNG and PDF formats.
 - Paper-facing Markdown summary tables.
 - Public-data acquisition and full/partial reproduction instructions.

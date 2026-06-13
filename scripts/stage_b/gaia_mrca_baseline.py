@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """MRCA-inspired full-data baseline on GAIA minute-level aggregate artifacts.
 
-This is an adaptation, not a native reproduction of ASE 2024 MRCA.
+This is an aggregate-level adaptation, not a native reproduction of MRCA.
 We only have service-minute trace and metric aggregates locally, so we emulate:
 1. abnormal-service ranking from multi-signal anomaly evidence
 2. pruning by anomaly timing / precedence among top abnormal services

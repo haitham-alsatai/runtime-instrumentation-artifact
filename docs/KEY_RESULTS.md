@@ -29,6 +29,11 @@ budget, realized total-trace reduction is approximately 42.4% for RE2-OB and
 ## Stage B Main and Ablation Results
 
 - Full adaptive context: Avg@5 is 0.826 at 25% and 0.642 at 50%.
+- Adaptive 95% case-resampling intervals are `[0.815, 0.837]` at 25% and
+  `[0.623, 0.660]` at 50%.
+- Paired adaptive-minus-anchored-random Avg@5 intervals remain positive:
+  `[0.011, 0.032]` at 25% and `[0.007, 0.036]` at 50%.
+- Adaptive fault-type macro Avg@5 is 0.835 at 25% and 0.665 at 50%.
 - No alerted-service context: Avg@5 is 0.213 at 25% and 0.229 at 50%.
 - Removing fault-type or time-window context leaves performance close to full
   adaptive context.
@@ -58,4 +63,3 @@ The incremental adaptive advantage over anchored random becomes small around
 
 These models change only downstream scoring after adaptive selection; they do
 not remove the post-alert service-anchor assumption.
-

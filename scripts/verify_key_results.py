@@ -83,6 +83,33 @@ def main() -> None:
         anchor_corruption=0.5,
     )
 
+    bootstrap = "results/stage_b/stage_b_case_resampling/bootstrap_intervals.csv"
+    check(
+        bootstrap,
+        "ci_low",
+        0.814601,
+        comparison="adaptive",
+        budget=0.25,
+        metric="avg_at_5",
+    )
+    check(
+        bootstrap,
+        "ci_high",
+        0.035956,
+        comparison="adaptive_minus_anchored_random",
+        budget=0.5,
+        metric="avg_at_5",
+    )
+
+    macro = "results/stage_b/stage_b_case_resampling/summary_fault_macro.csv"
+    check(
+        macro,
+        "avg_at_5",
+        0.834928,
+        policy="adaptive_corrupted_anchor",
+        budget=0.25,
+    )
+
     learned = "results/stage_b/gaia_ml_evidence_scorer/summary_overall.csv"
     check(
         learned,
@@ -104,4 +131,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

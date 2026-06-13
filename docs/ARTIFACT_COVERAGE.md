@@ -1,14 +1,13 @@
-# New Artifact Versus the Previous Submission Artifact
+# Artifact Coverage and Experiment Families
 
-## Why the Previous Material Is Still Included
+## Why Supporting Material Is Included
 
-The revised study preserves the same two-stage empirical foundation. The
-original Stage A and Stage B scripts/results are therefore still needed to
-support the integrated experiment, ablations, adapted comparators, and earlier
-selector analyses.
+The study uses a two-stage empirical foundation. The supporting Stage A and
+Stage B scripts/results are needed to inspect the integrated experiment,
+ablations, adapted comparators, and selector analyses.
 
-The new repository includes those materials so reviewers can inspect one
-self-contained artifact. It does not require the previous repository.
+The repository includes these materials so reviewers can inspect one
+self-contained artifact.
 
 ## Preserved Supporting Experiments
 
@@ -29,7 +28,7 @@ self-contained artifact. It does not require the previous repository.
 - Adapted BARO-style aggregate baseline.
 - Adapted MRCA-style aggregate baseline.
 
-## New Post-Submission Experiments
+## Extended Experiments
 
 ### Stage A Dense Budget Sweep
 
@@ -66,4 +65,3 @@ self-contained artifact. It does not require the previous repository.
 - Duplicate empty output folders.
 - Python caches and local logs.
 - Absolute local paths and personal machine information.
-
