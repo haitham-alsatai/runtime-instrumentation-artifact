@@ -1,4 +1,4 @@
-# Anonymous Artifact: Adaptive Runtime Instrumentation Under Telemetry Budgets
+# Artifact: Adaptive Runtime Instrumentation Under Telemetry Budgets
 
 This repository contains the scripts, derived results, paper-facing figures,
 and verification documentation for a two-stage empirical study of budgeted
@@ -156,6 +156,3 @@ pip install -r requirements.txt
 
 See [`docs/DECISION_TIME_AND_LIMITATIONS.md`](docs/DECISION_TIME_AND_LIMITATIONS.md)
 for the complete interpretation and leakage boundary.
-
-Instructions for publishing this local artifact as a separate GitHub
-repository are in [`docs/PUBLISHING.md`](docs/PUBLISHING.md).
